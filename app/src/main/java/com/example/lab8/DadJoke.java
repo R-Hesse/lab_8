@@ -85,6 +85,7 @@ public class DadJoke extends AppCompatActivity implements NavigationView.OnNavig
                 Intent lastPage = new Intent(DadJoke.this, MainActivity.class);
                 message = "CARTMANS GOING HOME YEW GUYZ!";
                 startActivity(lastPage);
+                finishAffinity();
                 break;
 
             case R.id.dadJoke:

@@ -84,8 +84,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.dadJoke:
                 Intent nextPage = new Intent(MainActivity.this, DadJoke.class);
-                startActivity(nextPage);
                 message = "That'll be FIVE BUCKS!";
+                startActivity(nextPage);
+                finishAffinity();
                 break;
 
             case R.id.exit:
