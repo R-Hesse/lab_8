@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+
+    <item android:id="@+id/menu1"
+        android:title="Kenny"
+        android:icon="@drawable/kenny"
+        android:orderInCategory="98"
+        app:showAsAction="always"/>  <!-- This uses showAsAction=always, so look at icon= parameter -->
+
+    <item android:id="@+id/menu2"
+        android:title="Cartman"
+        android:icon="@drawable/cartman"
+        android:orderInCategory="99"
+        app:showAsAction="always"/>  <!-- This uses showAsAction=always, so look at icon= parameter -->
+
+
+
+</menu>
